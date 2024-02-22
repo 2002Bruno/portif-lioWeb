@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.info {
+  flex: 1 50%;
+  max-width: 40%;
+  padding-left: 10%;
+}
+
+.profission-info {
+  margin-bottom: 5px;
+  color: var(--primary-color-text);
+}
+
+.name-info {
+  margin: 0;
+  font-weight: bolder;
+  background: -webkit-linear-gradient(45deg, rgba(21,22,187,1) 0%, rgba(137,39,204,1) 43%, rgba(255,97,156,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.body-info {
+  width: 100%;
+  float: left;
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--primary-color-text);
+}
+
+.button {
+  cursor: pointer;
+  color: white;
+  border-radius: 10px;
+  padding: 15px 40px 15px 40px;
+  background: linear-gradient(45deg, rgba(21, 22, 187, 1) 0%, rgba(137, 39, 204, 1) 43%, rgba(255, 97, 156, 1) 100%);
+}
+
+.button:hover {
+  cursor: pointer;
+  color: white;
+  border-radius: 10px;
+  padding: 15px 40px 15px 40px;
+  background: linear-gradient(45deg, rgba(21,22,187,1) 0%, rgba(127,22,199,1) 43%, rgba(124,22,60,1) 100%);
+}
+
+.image {
+  max-width: 40%;
+}
+
+img {
+  height: auto;
+  width: 70%;
+}
+
+.btn-container {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: right;
+  margin-top: 70px;
+}
+
+
+@media screen and (max-width: 1109px) {
+  img {
+    width: 100%;
+  }
+
+  .image {
+    margin-top: 100px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .info {
+    max-width: 90%;
+    padding: 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .info {
+    max-width: 100%;
+  }
+}

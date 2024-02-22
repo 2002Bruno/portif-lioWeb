@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+@import "primeicons/primeicons.css";
+
+html, body {
+  font-family: Montserrat;
+}
+
+body {
+  background: var(--body-color);
+}
+
+:root {
+  --primary-color-text: black;
+  --body-color: white;
+  --header-color: white;
+}
+
+:root .dark-theme {
+
+  --image: url("assets/img/icons/img.png");
+  --primary-color-text: white;
+  --header-color: rgb(53,53,53);
+  --body-color: rgb(42, 42, 42);
+}

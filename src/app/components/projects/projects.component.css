@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projects-title {
+  padding: 10px 10px 10px 10px;
+  margin: 10px;
+  justify-content: start;
+  text-align: center;
+  color: var(--primary-color-text);
+}
+
+.card {
+  padding: 10px;
+  margin: 10px;
+  width: 40%;
+}
+
+@media screen and (max-width: 416px) {
+  .card {
+    width: 100%;
+  }
+}

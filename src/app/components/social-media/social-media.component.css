@@ -1,0 +1,48 @@
+#social-media {
+  margin-top: 100px;
+}
+
+.social-media-title {
+  padding: 10px 10px 10px 10px;
+  margin: 10px;
+  justify-content: start;
+  text-align: center;
+  color: var(--primary-color-text);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  height: 90px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+img {
+  width: 100px;
+  transition: all 0.5s;
+  border: 10px solid transparent;
+}
+
+img:hover {
+  -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+.name-images {
+  color: var(--primary-color-text);
+}
+
+
+@media screen and (max-width: 417px) {
+  img {
+    width: 50px;
+  }
+
+  #social-media {
+    margin-top: 50px;
+  }
+}
